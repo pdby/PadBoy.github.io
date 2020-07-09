@@ -103,6 +103,7 @@ body {
   padding-left: auto;
   padding-right: auto;
   background-color: var(--BLACK_900);
+  position: static;
 }
 
 .footer2 {
@@ -115,6 +116,7 @@ body {
   padding-right: auto;
   background-color: var(--BLACK_900);
   margin-top: 20px;
+  position: static;
 }
 .bottom-link {
   color: var(--BLUEBERRY_500);
