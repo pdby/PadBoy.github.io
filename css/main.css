@@ -1,7 +1,7 @@
 /* COLOR PALETTE MADE BY THE ELEMENTARY TEAM! EVERY RIGHT GOES THEM AND THEIR
 FANTASTIC ELEMENTARY OS! NOTHING ELSE HAS BEEN BORROWED ONLY THE COLOR CODES!*/
 
-:root{
+:root {
   --STRAWBERRY_100: #ff8c82;
   --STRAWBERRY_300: #ed5353;
   --STRAWBERRY_500: #c6262e;
@@ -75,15 +75,18 @@ FANTASTIC ELEMENTARY OS! NOTHING ELSE HAS BEEN BORROWED ONLY THE COLOR CODES!*/
   --BLACK_900: #000;
 }
 
-body{
+body {
   background-color: var(--BLACK_500);
+  color: var(--SILVER_100);
 }
 
-.navbar-bg{
+.navbar-bg {
   background-color: var(--BLUEBERRY_500);
 }
 
-.nav-link, .navbar, .navbar-brand{
+.nav-link,
+.navbar,
+.navbar-brand {
   color: var(--SILVER_100);
 }
 
@@ -91,3 +94,42 @@ body{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.footer {
+  text-align: center;
+  top: auto;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: auto;
+  padding-right: auto;
+  background-color: var(--BLACK_900);
+}
+
+.footer2 {
+  text-align: center;
+  top: auto;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: auto;
+  padding-right: auto;
+  background-color: var(--BLACK_900);
+  margin-top: 20px;
+}
+.bottom-link {
+  color: var(--BLUEBERRY_500);
+  transition: 0.2s ease-in-out;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.yt:hover {
+  color: var(--STRAWBERRY_300);
+}
+
+.gh:hover {
+  color: var(--SILVER_300);
+}
+.dc:hover {
+  color: var(--GRAPE_500);
+}
