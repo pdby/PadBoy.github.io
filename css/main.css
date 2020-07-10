@@ -77,6 +77,10 @@ FANTASTIC ELEMENTARY OS! NOTHING ELSE HAS BEEN BORROWED ONLY THE COLOR CODES!*/
   --BLACK_900: #000;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--BLACK_500);
   color: var(--SILVER_100);
@@ -93,6 +97,7 @@ body {
 .navbar-brand {
   color: var(--SILVER_100);
   transition: 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .nav-item:hover{
@@ -120,7 +125,7 @@ body {
   padding-left: auto;
   padding-right: auto;
   background-color: var(--BLACK_900);
-  width: 100%;
+  width: 100%;font-size: 15px;
 }
 
 .footer2 {
@@ -160,6 +165,7 @@ body {
 
 .btn{
   background-color: var(--BLUEBERRY_500);
+  color: var(--SILVER_100);
   text-align: center;
   margin: 0;
   position: relative;
@@ -167,4 +173,10 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
+  font-weight: 500;
+}
+
+.btn:hover{
+  background-color: var(--BLUEBERRY_700);
+  color: var(--SILVER_100);
 }
