@@ -1,6 +1,8 @@
 /* COLOR PALETTE MADE BY THE ELEMENTARY TEAM! EVERY RIGHT GOES THEM AND THEIR
 FANTASTIC ELEMENTARY OS! NOTHING ELSE HAS BEEN BORROWED ONLY THE COLOR CODES!*/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
   --STRAWBERRY_100: #ff8c82;
   --STRAWBERRY_300: #ed5353;
@@ -78,6 +80,8 @@ FANTASTIC ELEMENTARY OS! NOTHING ELSE HAS BEEN BORROWED ONLY THE COLOR CODES!*/
 body {
   background-color: var(--BLACK_500);
   color: var(--SILVER_100);
+  font-family: 'Montserrat';
+  font-size: 22px;
 }
 
 .navbar-bg {
@@ -88,10 +92,24 @@ body {
 .navbar,
 .navbar-brand {
   color: var(--SILVER_100);
+  transition: 0.2s ease-in-out;
+}
+
+.nav-item:hover{
+  color: var(--BLUEBERRY_700);
 }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.front-text{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  position: absolute;
+  transform: translateY(50%);
 }
 
 .footer {
@@ -115,7 +133,7 @@ body {
   padding-left: auto;
   padding-right: auto;
   background-color: var(--BLACK_900);
-  margin-top: 20px;
+  margin-top: 30px;
   width: 100%;
 }
 .bottom-link {
@@ -134,4 +152,9 @@ body {
 }
 .dc:hover {
   color: var(--GRAPE_500);
+}
+
+.break{
+  font-family: 'Montserrat';
+  font-size: 15px;
 }
