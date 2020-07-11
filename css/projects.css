@@ -12,7 +12,7 @@
 
 .img-grid{
   display: flex;
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -39,10 +39,10 @@
   }
 }
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 800px){
   .grid-item{
     display: block;
-    flex-basis: 100%;
+    flex-basis: 150%;
   }
 }
 
