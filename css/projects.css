@@ -39,7 +39,7 @@
   }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1080px){
   .grid-item{
     display: block;
     flex-basis: 100%;
