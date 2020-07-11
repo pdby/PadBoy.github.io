@@ -2,15 +2,47 @@
   color: var(--BLUEBERRY_700) !important;
 }
 
-.row, .box{
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-
 .pf-dl, .pf-yt{
   font-size: 40px;
   padding-left: 8px;
   padding-right: 8px;
   margin-top: 10px;
+
 }
+
+.img-grid{
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.grid-item{
+  display: block;
+  flex-basis: 100%;
+  padding: 10px;
+  width: 33.33%;
+}
+
+@media only screen and (min-width: 600px){
+  .grid-item{
+    display: block;
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (min-width: 1300px){
+  .grid-item{
+    display: block;
+    flex-basis: 33.33%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .grid-item{
+    display: block;
+    flex-basis: 100%;
+  }
+}
+
