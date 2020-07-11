@@ -16,13 +16,15 @@
   margin: 0 auto;
   flex-wrap: wrap;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 .grid-item{
   display: block;
-  flex-basis: 100%;
+  flex-basis: 90%;
   padding: 10px;
   width: 33.33%;
+  
 }
 
 @media only screen and (min-width: 600px){
@@ -44,5 +46,53 @@
     display: block;
     flex-basis: 150%;
   }
+}
+
+.img-grid-last{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.grid-item-last{
+  display: block;
+  flex-basis: 90%;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 600px){
+  .grid-item-last{
+    display: block;
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (min-width: 1300px){
+  .grid-item-last{
+    display: block;
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .grid-item-last{
+    display: block;
+    flex-basis: 150%;
+  }
+}
+
+.latest-project{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 50px;
+
 }
 
