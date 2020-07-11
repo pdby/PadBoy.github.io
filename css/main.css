@@ -84,7 +84,7 @@ html{
 body {
   background-color: var(--BLACK_500);
   color: var(--SILVER_100);
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
 }
 

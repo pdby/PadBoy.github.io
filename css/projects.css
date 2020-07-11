@@ -1,3 +1,7 @@
+*{
+  font-family: 'Montserrat';
+}
+
 .nav-selected{
   color: var(--BLUEBERRY_700) !important;
 }
@@ -96,3 +100,33 @@
 
 }
 
+.header{
+  background-color: var(--BLACK_900);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Montserrat';
+}
+
+.header-txt{
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.search, i{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.apple, .fa-apple {
+  margin-right: 15px;
+}
