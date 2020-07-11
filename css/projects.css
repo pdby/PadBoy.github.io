@@ -109,6 +109,7 @@
   justify-content: space-evenly;
   align-items: center;
   font-family: 'Montserrat';
+  position: relative;
 }
 
 .header-txt{
