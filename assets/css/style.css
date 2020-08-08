@@ -83,11 +83,7 @@ label #sign-one, label #sign-two{
     font-size: 60px;
 }
 
-@media (max-width: 870px){
-    body{
-        overflow-y: hidden;
-    }
-    
+@media (max-width: 870px){    
     label #sign-one{
         display: block;
     }
