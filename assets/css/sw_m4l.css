@@ -1,0 +1,20 @@
+.banner-top{
+    background-color: black;
+    height: 180px;
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-txt, .banner-txt-desc{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-txt{
+    font-size: 50px;
+    font-weight: 500;
+}
