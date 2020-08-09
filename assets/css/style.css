@@ -44,20 +44,28 @@
 
  .footer-bg-pre{
     background-color: #141414;
-    height: 114px;
+    height: 80px;
     justify-content: center;
     margin-top:20px;
     display:flex;
     align-items:center;
  }
 
- .icon-lbl{
-     display: block;
-    transition: ease-in-out .5s;
-    opacity: 0;
+.fa-youtube-play, .fa-link, .fa-github{
+  font-size: 25px;
+  padding: 0 10px;
+  transition: ease-in-out .2s;
+  display: inline-block;
 }
 
-.fa-youtube-play:hover .icon-lbl{
-        opacity: 1;
+.fa-youtube-play:hover {
+        color: #DC3545;
 }
-  
+
+.fa-link:hover{
+  color: #7289da;
+}
+
+.fa-github:hover{
+  color: #2DBA4E;
+}
