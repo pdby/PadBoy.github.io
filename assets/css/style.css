@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     font-family: 'Montserrat', sans-serif;
+    
+    --BLUEBERRY_100: #8cd5ff !important;
+    --BLUEBERRY_300: #64baff !important;
+    --BLUEBERRY_500: #3689e6 !important;
+    --BLUEBERRY_700: #0d52bf !important;
+    --BLUEBERRY_900: #002e99 !important;
 }
 
 .masthead {
@@ -15,6 +20,44 @@
   }
 
   body{
-
       color: whitesmoke;
   }
+
+  .nav-link{
+    font-weight: 600;
+      color: var(--BLUEBERRY_900) !important;
+      transition: ease-in-out .2s;
+  }
+
+  .nav-link:hover{
+      color: whitesmoke !important;
+  }
+
+  .btn-primary{
+    font-weight: 600;
+    transition: ease-in-out .2s !important;
+  }
+
+  .btn-primary:hover{
+    color: whitesmoke !important;
+  }
+
+ .footer-bg-pre{
+    background-color: #141414;
+    height: 114px;
+    justify-content: center;
+    margin-top:20px;
+    display:flex;
+    align-items:center;
+ }
+
+ .icon-lbl{
+     display: block;
+    transition: ease-in-out .5s;
+    opacity: 0;
+}
+
+.fa-youtube-play:hover .icon-lbl{
+        opacity: 1;
+}
+  
