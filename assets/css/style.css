@@ -148,3 +148,8 @@ body{
 .fa-github:hover{
   color: var(--bs-green);
 }
+
+.nav-icon{
+  padding-right: 7px;
+  padding-left: 7px;
+}
