@@ -1,0 +1,144 @@
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 200px;
+    overflow: hidden;
+}
+
+.header .header-title{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.header .header-desc{
+    font-style: italic;
+}
+
+
+@media (max-width: 876px){
+    .header .header-title{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 876px){
+    .header .header-desc{
+        font-size: 15px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 680px){
+    .header .header-title{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 680px){
+    .header .header-desc{
+        font-size: 15px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px){
+    .header .header-title{
+        font-size: 28px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px){
+    .header .header-desc{
+        font-size: 15px;
+        width: 80%;
+    }
+}
+
+.list-icon{
+    width: 400px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.list-unstyled{
+    width: 100%;
+    padding: 0 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 720px){
+    .list-unstyled{
+        width: 100%;
+        padding: 0 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+
+.list-unstyled h5{
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    font-size: 15px;
+    text-align: left;
+    font-style: italic;
+}
+
+.list-icon{
+    opacity: 1;
+    transition: .2s ease-in-out;
+    filter: none;
+}
+
+.list-icon:hover{
+    filter: blur(2px) grayscale(80%);
+}
+
+#latest-project .list-icon{
+    width: 600px;
+}
+
+#latest-project .project-title{
+    padding-bottom: 50px;
+}
+
+
+@media (max-width: 720px){
+    #latest-project .list-icon{
+        width: 400px;
+    }
+}
+
+.latest-project{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    padding-top: 25px;
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-weight: 800;
+}
