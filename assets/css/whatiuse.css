@@ -60,18 +60,18 @@
 }
 
 .list-icon{
-    width: 80px;
-    padding-bottom: 15px;
+    width: 150px;
 }
 
 .list-unstyled{
     width: 100%;
-    padding: 25px 300px;
-    display: flex;
+    padding: 0 200px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     vertical-align: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
 }
 
@@ -103,14 +103,13 @@
 }
 
 .list-icon-wide{
-    width: 500px;
-    padding-bottom: 15px;
+    width: 600px;
 }
 
 @media (max-width: 876px){
     .list-unstyled{
         width: 100%;
-        padding: 25px 25px;
+        padding: 0 25px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -122,4 +121,17 @@
         width: 400px;
         padding-bottom: 15px;
     }
+
 }
+
+.list-icon, .list-icon-wide{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.list-unstyled h5{
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    font-size: 25px;
+}
+
