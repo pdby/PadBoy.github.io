@@ -60,7 +60,7 @@
 }
 
 .list-icon{
-    width: 400px;
+    width: 370px;
     padding-top: 25px;
     padding-bottom: 15px;
 }
@@ -124,7 +124,7 @@
 
 @media (max-width: 720px){
     #latest-project .list-icon{
-        width: 400px;
+        width: 370px;
     }
 }
 
