@@ -1,11 +1,11 @@
 .header{
-    background-color: black;
+    background: url('/assets/images/header.png');
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 200px;
+    height: 300px;
     overflow: hidden;
 }
 
