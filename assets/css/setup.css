@@ -60,7 +60,7 @@
 }
 
 .list-icon{
-    width: 370px;
+    width: 390px;
     padding-top: 25px;
     padding-bottom: 15px;
 }
@@ -98,7 +98,7 @@
 .list-unstyled h5{
     text-transform: uppercase;
     text-decoration-line: underline;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     font-style: italic;
 }
@@ -110,7 +110,7 @@
 }
 
 .list-icon:hover{
-    filter: blur(2px) grayscale(80%);
+    filter: blur(2px) grayscale(90%);
 }
 
 #latest-project .list-icon{
@@ -137,9 +137,28 @@
     align-self: center;
     align-content: center;
     padding-top: 25px;
-    font-size: 40px;
+    font-size: 50px;
     text-decoration-line: underline;
     text-transform: uppercase;
     font-weight: 800;
+    flex-flow: row;
+    flex-direction: row;
+}
+
+#latest-project li{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    padding-top: 25px;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-weight: 800;
+    flex-flow: column;
+    flex-direction: column;
 }
 
