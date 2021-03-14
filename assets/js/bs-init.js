@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	AOS.init({ disable: 'mobile' });
 
 (function(){
 
@@ -79,4 +80,5 @@ $(document).ready(function(){
 	}
 
 })();
+	$('[data-bs-tooltip]').tooltip();
 });
